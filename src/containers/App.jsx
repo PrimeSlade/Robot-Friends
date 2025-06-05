@@ -1,10 +1,11 @@
 import { robots } from "../robots";
 import "./App.css";
-import CardList from "../components/CardList";
 import "tachyons";
 import SearchBox from "../components/SearchBox";
-import { useState } from "react";
+import { lazy, Suspense, useState } from "react";
 import Scroll from "../components/Scroll";
+
+const CardList = lazy(() => import("../components/CardList"));
 
 function App() {
   const [searchField, setSearchField] = useState(""); //defualt value is ""
@@ -19,7 +20,9 @@ function App() {
         <h1 className="text">RobotFriends</h1>
         <SearchBox setSearchField={setSearchField} />
         <Scroll>
-          <CardList robots={filterdRobots} />
+          <Suspense fallback={<div>Loading robots...</div>}>
+            <CardList robots={filterdRobots} />
+          </Suspense>
         </Scroll>
       </div>
     </>
