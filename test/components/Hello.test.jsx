@@ -3,5 +3,6 @@ import Hello from "../../src/components/Hello";
 
 test("renders Hello component", () => {
   render(<Hello />);
-  expect(screen.getByText(/hello/i)).toBeInTheDocument();
+  const hello = screen.getAllByText(/hello/i);
+  expect(hello.length).toBe(2);
 });
