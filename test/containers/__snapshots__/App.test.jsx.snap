@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing app by using snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="tc"
+  >
+    <h1
+      class="text"
+    >
+      RobotFriends
+    </h1>
+    <button
+      class="mb3"
+    >
+      Click 0
+    </button>
+    <div>
+      <input
+        class="pa3 ba b--green bg-lightest-blue"
+        placeholder="search robots"
+        type="search"
+      />
+    </div>
+    <div
+      style="overflow: scroll; border: 1px solid black; height: 500px; margin-top: 50px;"
+    >
+      <div
+        class="text mt3"
+      >
+        Loading robots...
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

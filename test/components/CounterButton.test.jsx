@@ -1,11 +1,14 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import App from "../../src/containers/App";
+import CounterButton from "../../src/components/CounterButton";
 
 test("testing button func", () => {
-  render(<App />);
+  render(<CounterButton />);
   const btn = screen.getByRole("button");
 
   fireEvent.click(btn);
 
   expect(screen.getByText("Click 1")).toBeInTheDocument();
+
+  fireEvent.click(btn);
+  expect(screen.getByText("Click 2")).toBeInTheDocument();
 });

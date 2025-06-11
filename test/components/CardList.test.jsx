@@ -15,6 +15,6 @@ test("testing CardList by using snapshot", () => {
       email: "Shanna@melissa.tv",
     },
   ];
-  const component = render(<CardList robots={mockRobots} />);
-  expect(component).toMatchSnapshot();
+  const { asFragment } = render(<CardList robots={mockRobots} />);
+  expect(asFragment()).toMatchSnapshot();
 });
