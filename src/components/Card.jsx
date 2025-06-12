@@ -2,7 +2,10 @@ import React from "react";
 
 const Card = ({ id, name, email }) => {
   return (
-    <div className="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5">
+    <div
+      className="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+      data-testid="card"
+    >
       <img src={`https://robohash.org/${id}?200*200`} alt="robot" />
       <div>
         <h2>{name}</h2>
