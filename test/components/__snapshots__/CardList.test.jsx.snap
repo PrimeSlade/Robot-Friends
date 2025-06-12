@@ -4,6 +4,7 @@ exports[`testing CardList by using snapshot 1`] = `
 <DocumentFragment>
   <div
     class="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+    data-testid="card"
   >
     <img
       alt="robot"
@@ -20,6 +21,7 @@ exports[`testing CardList by using snapshot 1`] = `
   </div>
   <div
     class="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+    data-testid="card"
   >
     <img
       alt="robot"
