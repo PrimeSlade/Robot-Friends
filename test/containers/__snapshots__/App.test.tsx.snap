@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component and utils tests testing app by using snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="tc"
+  >
+    <h1
+      class="text"
+    >
+      RobotFriends
+    </h1>
+    <button
+      class="mb3"
+    >
+      Click 0
+    </button>
+    <div>
+      <input
+        class="pa3 ba b--green bg-lightest-blue"
+        placeholder="search robots"
+        type="search"
+      />
+    </div>
+    <div
+      style="overflow: scroll; border: 1px solid black; height: 500px; margin-top: 50px;"
+    >
+      <div
+        class="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+        data-testid="card"
+      >
+        <img
+          alt="robot"
+          src="https://robohash.org/1?200*200"
+        />
+        <div>
+          <h2>
+            Leanne Graham
+          </h2>
+          <p>
+            Sincere@april.biz
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+        data-testid="card"
+      >
+        <img
+          alt="robot"
+          src="https://robohash.org/2?200*200"
+        />
+        <div>
+          <h2>
+            Ervin Howell
+          </h2>
+          <p>
+            Shanna@melissa.tv
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+        data-testid="card"
+      >
+        <img
+          alt="robot"
+          src="https://robohash.org/3?200*200"
+        />
+        <div>
+          <h2>
+            Clementine Bauch
+          </h2>
+          <p>
+            Nathan@yesenia.net
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+        data-testid="card"
+      >
+        <img
+          alt="robot"
+          src="https://robohash.org/4?200*200"
+        />
+        <div>
+          <h2>
+            Patricia Lebsack
+          </h2>
+          <p>
+            Julianne.OConner@kory.org
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+        data-testid="card"
+      >
+        <img
+          alt="robot"
+          src="https://robohash.org/5?200*200"
+        />
+        <div>
+          <h2>
+            Chelsey Dietrich
+          </h2>
+          <p>
+            Lucio_Hettinger@annie.ca
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+        data-testid="card"
+      >
+        <img
+          alt="robot"
+          src="https://robohash.org/6?200*200"
+        />
+        <div>
+          <h2>
+            Mrs. Dennis Schulist
+          </h2>
+          <p>
+            Karley_Dach@jasper.info
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+        data-testid="card"
+      >
+        <img
+          alt="robot"
+          src="https://robohash.org/7?200*200"
+        />
+        <div>
+          <h2>
+            Kurtis Weissnat
+          </h2>
+          <p>
+            Telly.Hoeger@billy.biz
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+        data-testid="card"
+      >
+        <img
+          alt="robot"
+          src="https://robohash.org/8?200*200"
+        />
+        <div>
+          <h2>
+            Nicholas Runolfsdottir V
+          </h2>
+          <p>
+            Sherwood@rosamond.me
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+        data-testid="card"
+      >
+        <img
+          alt="robot"
+          src="https://robohash.org/9?200*200"
+        />
+        <div>
+          <h2>
+            Glenna Reichert
+          </h2>
+          <p>
+            Chaim_McDermott@dana.io
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+        data-testid="card"
+      >
+        <img
+          alt="robot"
+          src="https://robohash.org/10?200*200"
+        />
+        <div>
+          <h2>
+            Clementina DuBuque
+          </h2>
+          <p>
+            Rey.Padberg@karina.biz
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

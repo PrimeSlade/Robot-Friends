@@ -12,10 +12,10 @@ exports[`testing CardList by using snapshot 1`] = `
     />
     <div>
       <h2>
-        Leanne Graham
+        Robot One
       </h2>
       <p>
-        incere@april.biz
+        one@robots.com
       </p>
     </div>
   </div>
@@ -29,10 +29,27 @@ exports[`testing CardList by using snapshot 1`] = `
     />
     <div>
       <h2>
-        Ervin Howell
+        Robot Two
       </h2>
       <p>
-        Shanna@melissa.tv
+        two@robots.com
+      </p>
+    </div>
+  </div>
+  <div
+    class="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+    data-testid="card"
+  >
+    <img
+      alt="robot"
+      src="https://robohash.org/3?200*200"
+    />
+    <div>
+      <h2>
+        Robot Three
+      </h2>
+      <p>
+        three@robots.com
       </p>
     </div>
   </div>

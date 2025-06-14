@@ -1,18 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import CardList from "../../src/components/CardList";
-
-const mockRobots = [
-  {
-    id: 1,
-    name: "Leanne Graham",
-    email: "incere@april.biz",
-  },
-  {
-    id: 2,
-    name: "Ervin Howell",
-    email: "Shanna@melissa.tv",
-  },
-];
+import React from "react";
+import { mockRobots } from "../__mocks__/mockRobots";
 
 test("testing CardList by using snapshot", () => {
   // Mock robot data for testing

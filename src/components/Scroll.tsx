@@ -1,6 +1,10 @@
 import React from "react";
 
-const Scroll = (prop) => {
+type ScrollProps = {
+  children: React.ReactNode;
+};
+
+const Scroll = ({ children }: ScrollProps) => {
   return (
     <div
       style={{
@@ -10,7 +14,7 @@ const Scroll = (prop) => {
         marginTop: "50px",
       }}
     >
-      {prop.children}
+      {children}
     </div>
   );
 };

@@ -5,6 +5,7 @@ import { lazy, Suspense, useState } from "react";
 import Scroll from "../components/Scroll";
 import CounterButton from "../components/CounterButton";
 import { filteredRobots } from "../utils/filteredRobots";
+import React from "react";
 
 const CardList = lazy(() => import("../components/CardList"));
 

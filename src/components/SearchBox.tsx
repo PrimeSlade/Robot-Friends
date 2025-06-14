@@ -1,6 +1,7 @@
 import React from "react";
+import { SearchBoxProps } from "../type/Types";
 
-const SearchBox = ({ setSearchField }) => {
+const SearchBox = ({ setSearchField }: SearchBoxProps) => {
   return (
     <div>
       <input
