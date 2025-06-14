@@ -1,5 +1,6 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import CounterButton from "../../src/components/CounterButton";
+import React from "react";
 
 test("testing button func", () => {
   render(<CounterButton />);
