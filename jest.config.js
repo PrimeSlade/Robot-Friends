@@ -17,4 +17,5 @@ export default {
   testMatch: ["**/test/**/*.test.[jt]s?(x)"],
 
   verbose: true,
+  watchPathIgnorePatterns: ["node_modules", "dist", "build"],
 };
