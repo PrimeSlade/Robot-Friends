@@ -10,11 +10,6 @@ exports[`App Component and utils tests testing app by using snapshot 1`] = `
     >
       RobotFriends
     </h1>
-    <button
-      class="mb3"
-    >
-      Click 0
-    </button>
     <div>
       <input
         class="pa3 ba b--green bg-lightest-blue"
