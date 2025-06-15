@@ -1,6 +1,12 @@
 import React from "react";
 
-const Card = ({ id, name, email }) => {
+type CardProp = {
+  id: number;
+  name: string;
+  email: string;
+};
+
+const Card = ({ id, name, email }: CardProp) => {
   return (
     <div
       className="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
