@@ -4,9 +4,9 @@ orbs:
   node: circleci/node@7.1.0
 
 jobs:
-  build:
+  bobby:
     docker:
       - image: circleci/node@7.1.0
-    step:
+    steps:
       - checkout
       - run: echo "A first hello"
