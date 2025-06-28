@@ -11,7 +11,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "jest",
+    "precommit": "pretty-quick --staged"
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -40,7 +41,10 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^30.0.0-beta.3",
+    "prettier": "3.6.2",
+    "pretty-quick": "^4.2.2",
     "react-test-renderer": "^19.1.0",
+    "simple-git-hooks": "^2.13.0",
     "typescript": "^5.8.3",
     "vite": "^6.0.5"
   },
