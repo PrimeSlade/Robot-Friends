@@ -18,7 +18,7 @@ function App() {
     <>
       <div className="tc">
         <h1 className="text">RobotFriends</h1>
-        <CounterButton />
+        {/* <CounterButton /> */}
         <SearchBox setSearchField={setSearchField} />
         <Scroll>
           <Suspense
